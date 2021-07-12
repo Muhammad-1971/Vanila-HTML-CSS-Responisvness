@@ -154,5 +154,24 @@ background-color: #ffffff;
   color: #FFC014;
 }
 .unfill{
-  color: #AEAEAE;
+  color: #c9c9c9;
+}
+#rating{
+  margin-left: 10.71px;
+  font-size: 14.65px;
+  color: #A2A2A2;
+  font-family:  'Poppins', sans-serif;
+  font-weight: 400;
+
+}
+#time{
+  width: 94px;
+  height: 30px;
+  margin-left: 20px;
+  /* border: 1px solid black; */
+ border-radius: 15px;
+ padding: 10px 7px 7px 20px;
+ background-color: #FFE4E8;
+ color: #FF4A60;
+ font-size: 15px;
 }

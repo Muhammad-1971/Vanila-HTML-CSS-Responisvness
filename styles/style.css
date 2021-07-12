@@ -22,6 +22,7 @@
     border:1px solid #D1D1D1;
     margin-bottom: 25px;
   }
+  
 /* Top players */
 .top-players{
   margin-bottom: 30px;
@@ -47,9 +48,13 @@
   width: 56px;
   height: 56px;
   /* border: 1px solid black; */
-  /* border-radius: 28px;
-  box-shadow:  6px 5px 8px #cacaca,
-               inset -8px 8px 12px ghostwhite; */
+  border-radius: 28px;
+  box-shadow: 5px 6px 12px #696868,
+               inset -8px 8px 12px ghostwhite;
+}
+.player img:hover{
+  transform: scale(1.4);
+  transition: transform 0.4s linear;
 }
 .player-name{
   margin-left: 16px;
@@ -121,7 +126,11 @@ background-color: #ffffff;
   border-radius: 14px;
   box-shadow: 4px 5px 6px rgb(245, 244, 244),
               -4px -5px 6px #f0f0f0;
+  overflow: hidden;            
  
+}
+.banner-img{
+  overflow: hidden;  
 }
 .banner-img img{
   margin: auto;
@@ -132,6 +141,11 @@ background-color: #ffffff;
   height: 104px;
   justify-self: center;
 
+}
+.banner-img img:hover{
+  transform: scale(1.2);
+  border-radius: 15px;
+  transition: all .3s linear;
 }
 .title-banner{
   font-family: 'Roboto', sans-serif;
@@ -174,5 +188,9 @@ background-color: #ffffff;
  background-color: #FFE4E8;
  color: #FF4A60;
  font-size: 15px;
+}
+ span #time:hover i{
+  transform: scale(1.5);
+  transition: all .3s ease-in-out;
 }
 /* responsivness */

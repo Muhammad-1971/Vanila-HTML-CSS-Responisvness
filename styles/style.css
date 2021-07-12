@@ -9,12 +9,13 @@
   }
   main{
     display: flex;
-    justify-content: center;
+   flex-direction: column;
+   align-items: center;
   }
   .container{
     width: 870px;
-    background-color: #FFFFFF;
-    padding: 30px;
+    background-color: #FFFFFF; 
+    padding: 45px;
   }
   hr{
     border:1px solid #D1D1D1;
@@ -52,4 +53,31 @@
   margin-left: 16px;
   font-family: 'Poppins', sans-serif;
   font-size: 18px;
+}
+/* Top blogs */
+.blog{
+  display: flex;
+}
+.blog-info{
+  margin-left: 16px;
+}
+.blog .thumnail img{
+  margin-
+  width: 177px;
+  height: 177px;
+}
+.blog-title{
+font-size: 20px;
+}
+.blog-author{
+  color: #9F9F9F;
+  font-size: 16px;
+}
+.blog-author a{
+  color: #562EFF;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  
+
 }

@@ -15,10 +15,11 @@
   .container{
     width: 870px;
     background-color: #FFFFFF; 
-    padding: 45px;
+    padding: 30px;
   }
   hr{
     border:1px solid #D1D1D1;
+    margin-bottom: 25px;
   }
 /* Top players */
 .top-players{
@@ -55,6 +56,11 @@
   font-size: 18px;
 }
 /* Top blogs */
+.blogs{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-row-gap: 26px;
+}
 .blog{
   display: flex;
 }
@@ -62,12 +68,12 @@
   margin-left: 16px;
 }
 .blog .thumnail img{
-  margin-
   width: 177px;
-  height: 177px;
+  height: 117px;
 }
 .blog-title{
 font-size: 20px;
+ 
 }
 .blog-author{
   color: #9F9F9F;

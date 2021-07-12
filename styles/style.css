@@ -1,5 +1,6 @@
 /* font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
 
 
@@ -86,4 +87,72 @@ font-size: 20px;
   font-family: 'Poppins', sans-serif;
   
 
+}
+/* latest courses */
+
+.latest-course{
+  margin-top: 17px;
+  width: 870px;
+  height: 362px;
+ padding: 17px 32px 28px 32px;
+  background-color: white;
+}
+.courses{
+display: flex;
+border-radius: 5px;
+background-color: #ffffff;
+}
+.banner-head{
+  margin-top: 17px;
+  margin-bottom: 11px;
+  font-size: 24px;
+  color: #562EFF;
+  font-family:  'Poppins', sans-serif;
+}
+.banner-detail{
+  width: 252.42px;
+  height: 269.79px;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 28px;
+  padding-top: 13px;
+  border-radius: 14px;
+  box-shadow: 4px 5px 6px rgb(245, 244, 244),
+              -4px -5px 6px #f0f0f0;
+ 
+}
+.banner-img img{
+  margin: auto;
+  padding-left: auto;
+  position: relative;
+  /* position: absolute; */
+  width: 224px;
+  height: 104px;
+  justify-self: center;
+
+}
+.title-banner{
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  padding:0 11px;
+}
+.course-author{
+  font-family: 'Roboto', sans-serif;
+  color: #ED6B4F;
+  font-weight: 400;
+  font-size: 14.69px;
+  padding:0 11px;
+}
+.icon{
+  padding:0 11px;
+  font-size: 12px;
+}
+.icon .fill-up{
+  color: #FFC014;
+}
+.unfill{
+  color: #AEAEAE;
 }

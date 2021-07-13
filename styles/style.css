@@ -73,6 +73,9 @@
     display: flex;
   }
   .title ul li {
+    list-style: none;
+  }
+  .title ul li a{
     margin-right: 50px;
     padding-left: 10px;
     text-decoration: none;
@@ -81,6 +84,12 @@
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     color: white;
+  }
+    .title ul li a:hover{
+    text-decoration: 1px underline white;
+  }
+  .title ul li a:hover {
+  border-bottom: 1px underline white;
   }
  
   .profile-png img{
@@ -280,6 +289,9 @@ background-color: #ffffff;
   height: 94px;
   background-color: #562EFF;
   margin-top: 46px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  box-shadow: inset 6px 6px 12px rgb(155, 153, 153);
 }
  .logo-2{
    text-align: center;

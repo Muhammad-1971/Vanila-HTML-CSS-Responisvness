@@ -24,15 +24,20 @@
     border:1px solid #D1D1D1;
     margin-bottom: 25px;
   }
+
+
   /* -------------------
            navbar 
      --------------------*/
+
+
   .nav-bar{
     
     width: 100%;
     /* width: 1440px; */
     height: 94px;
     background-color: #562EFF;
+    margin-bottom: 46px;
   }
   .nav-detail{
     display: flex;
@@ -81,7 +86,13 @@
     width: 51px;
     height: 51px;
   }
-/* Top players */
+
+
+/*------------------------------
+              Top players
+              ----------------------------- */
+
+
 .top-players{
   margin-bottom: 30px;
 }
@@ -119,7 +130,13 @@
   font-family: 'Poppins', sans-serif;
   font-size: 18px;
 }
-/* Top blogs */
+
+
+/*---------------------------------
+           Top blogs
+            --------------------------------*/
+
+
 .blogs{
   display: grid;
   grid-template-columns: repeat(2,1fr);
@@ -151,7 +168,9 @@ font-size: 20px;
   
 
 }
-/* latest courses */
+/* -------------------
+latest courses
+---------------------- */
 
 .latest-course{
   margin-top: 17px;
@@ -251,12 +270,19 @@ background-color: #ffffff;
   transform: scale(1.5);
   transition: all .3s ease-in-out;
 }
+
+/*---------------------
+             footer 
+             -------------------*/
+ .footer{
+   width: ;
+   height: 94px;
+ }
+
 /* responsivness */
 /* Mobile device */
 @media screen and (max-width:688px) {
-  .nav-bar{
-    
-  }
+ 
   .container{
     width: 100%;
   }

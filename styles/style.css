@@ -375,7 +375,7 @@ background-color: #ffffff;
   
 }
 /* Tablet device */
-@media screen and (min-width:668px) and (max-width:1024) {
+@media screen and (min-width:668px) {
   .container{
     width: 100%;
   }
@@ -404,6 +404,10 @@ background-color: #ffffff;
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
+  }
+  .footer{
+    position: relative;
+    top: 500px;
   }
   
 }

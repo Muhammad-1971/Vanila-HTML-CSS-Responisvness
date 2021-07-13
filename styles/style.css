@@ -8,7 +8,9 @@
   body{
     background-color: #F3F1FF;
   }
+
   main{
+  
     display: flex;
    flex-direction: column;
    align-items: center;
@@ -22,7 +24,63 @@
     border:1px solid #D1D1D1;
     margin-bottom: 25px;
   }
+  /* -------------------
+           navbar 
+     --------------------*/
+  .nav-bar{
+    
+    width: 100%;
+    /* width: 1440px; */
+    height: 94px;
+    background-color: #562EFF;
+  }
+  .nav-detail{
+    display: flex;
+    justify-content: space-around;
+    
+  }
+  .logo-idea{
+    display: flex;
+    align-items: center;
+  }
+  .idea{
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+  }
   
+  .logo img{
+    margin-top: 20px;
+    margin-bottom: 17px;
+    width: 40.42px;
+    height: 51px;
+  }
+  .idea{
+    margin-left: 16px;
+  }
+  .title-png{
+    display: flex;
+    align-items: center;
+  }
+  .title ul{
+    display: flex;
+  }
+  .title ul li {
+    margin-right: 50px;
+    padding-left: 10px;
+    text-decoration: none;
+    list-style: none;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: white;
+  }
+ 
+  .profile-png img{
+    width: 51px;
+    height: 51px;
+  }
 /* Top players */
 .top-players{
   margin-bottom: 30px;
@@ -196,6 +254,9 @@ background-color: #ffffff;
 /* responsivness */
 /* Mobile device */
 @media screen and (max-width:688px) {
+  .nav-bar{
+    
+  }
   .container{
     width: 100%;
   }
